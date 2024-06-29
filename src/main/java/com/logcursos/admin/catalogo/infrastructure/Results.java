@@ -1,6 +1,6 @@
 package com.logcursos.admin.catalogo.infrastructure;
 
-public class CreateJson {
+public class Results {
     private String cep;
     private String logradouro;
     private String complemento;
