@@ -13,6 +13,20 @@ public class Results {
     private String ddd;
     private String siafi;
 
+    public Results(Results results) {
+        this.cep = results.getCep();
+        this.logradouro = results.getLogradouro();
+        this.complemento = results.getComplemento();
+        this.unidade = results.getUnidade();
+        this.bairro = results.getBairro();
+        this.localidade = results.getLocalidade();
+        this.uf = results.getUf();
+        this.ibge = results.getIbge();
+        this.gia = results.getGia();
+        this.ddd = results.getDdd();
+        this.siafi = results.getSiafi();
+    }
+
     public String getCep() {
         return cep;
     }
